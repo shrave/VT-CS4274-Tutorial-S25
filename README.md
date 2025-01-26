@@ -1,8 +1,6 @@
-# VT-CS4274-Tutorial-S25
-Steps for for VT CS4274 (Spring 2025) hands-on tutorial and practical exercises.
-
-
 # VT CS4274 - Spring 2025: Hands-on Tutorial
+
+Steps for for VT CS4274 (Spring 2025) hands-on tutorial and practical exercises.
 
 ## 1. Login to the Remote Server
 
