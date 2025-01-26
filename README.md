@@ -86,7 +86,7 @@ conda create --name huggingface_env python=3.8
 ### 2. Activate the Conda environment
 
 ```bash
-conda activate huggingface_env
+source activate huggingface_env
 ```
 
 ### 3. Install the required packages
@@ -98,17 +98,46 @@ pip install torch diffusers transformers datasets accelerate
 
 ## 4. Tutorial 1: Foundation models to Generate Synthetic Images
 
-[Link Text](https://github.com/username/repository-name/blob/main/path/to/file)
+[Prompting Stable Diffusion to Generate an Image](https://github.com/shrave/VT-CS4274-Tutorial-S25/blob/main/Text-to-Image.py)
 
 ## 5. Tutorial 2: Foundation models to Modify Images
 
-[Link Text](https://github.com/username/repository-name/blob/main/path/to/file)
+[Prompting Stable Diffusion with an Image-Text pair to Edit Image](https://github.com/shrave/VT-CS4274-Tutorial-S25/blob/main/modify-Image.py)
 
 ## 6. Tutorial 3: Foundation models to Generate Synthetic Text
 
-[Link Text](https://github.com/username/repository-name/blob/main/path/to/file)
+[Prompting GPT-2 to Generate Text](https://github.com/shrave/VT-CS4274-Tutorial-S25/blob/main/Text-to-Text.py)
+
+
 
 ## 7. Tutorial 4: Jailbreaking Large Language Models (LLMs)
 
-[Try Any Foundation Model online](https://lmarena.ai)
+[Try Any Foundation Model online](https://lmarena.ai) **(Demo)**
+
+---
+
+## 8. Using Other Models on Hugging Face
+
+In order to use other models(ex. Llama-3, LLaVa, etc) available on Hugging Face, you will need to create an account, generate an access token, and add it to your console. Follow the steps below:
+
+### 1. Create an Account on Hugging Face
+
+- Go to [Hugging Face](https://huggingface.co) and click on **Sign Up** in the top-right corner.
+- Fill out the required details to create your account.
+
+### 2. Generate an Access Token
+
+- After signing in, navigate to your **Account Settings** by clicking on your profile icon in the top-right corner.
+- Select **Access Tokens** from the menu.
+- Click on **New token**, provide a name, and select the desired permissions (e.g., read, write).
+- Click **Generate**. Your new access token will appear.
+
+### 3. Add the Token to Your Console
+
+- Once you have your token, open your terminal or console.
+- Run the following command to log in to Hugging Face:
+
+  ```bash
+  huggingface-cli login
+  ```
 
