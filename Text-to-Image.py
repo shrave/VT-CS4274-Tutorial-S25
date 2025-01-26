@@ -1,11 +1,9 @@
-from diffusers import StableDiffusionPipeline, DiffusionPipeline
+from diffusers import StableDiffusionPipeline
 import torch
 
 # Load pre-trained model
-# model_id = "CompVis/stable-diffusion-v1-4-original"  # You can use different models here
-# pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
 pipe = StableDiffusionPipeline.from_pretrained("OFA-Sys/small-stable-diffusion-v0",
-                                         torch_dtype=torch.float16)
+                                         torch_dtype=torch.float16) # You can use different models here
 pipe.to("cuda")  # Use GPU if available, otherwise use CPU
 
 # Define your prompt
