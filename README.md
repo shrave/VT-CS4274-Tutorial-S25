@@ -29,7 +29,7 @@ We recommend using Visual Studio Code (VSCode) as your code editor for remote de
 3. Enter your remote server details in the format `username@glogin.vt.cs.edu` and press Enter.
 
    - Replace `username` with your hokie ID.
-   - Replace `glogin.vt.cs.edu` with the server’s IP address.
+   - Replace `glogin.cs.vt.edu` with the server’s IP address.
 
    You may be prompted for a password or private key for authentication.
 
